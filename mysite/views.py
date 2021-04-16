@@ -6,3 +6,6 @@ def about(request):
 
 def home(request):
     return render(request, 'home.html', {'greeting': 'Hi'})
+
+def reverse(request):
+    return render(request, 'reverse.html', {'greeting': 'This is reverce'})
